@@ -15,14 +15,11 @@ const About = () => {
               maintainable code and learning new technologies.
             </p>
             <p>
-              Currently focused on [your current focus/role]. Always open to 
-              interesting projects and opportunities.
+              Always open to interesting projects and opportunities.
             </p>
           </div>
           <div className="about-image">
-            {/* Add your profile image here */}
             <div className="placeholder-image">
-              <span>Your Photo</span>
             </div>
           </div>
         </div>

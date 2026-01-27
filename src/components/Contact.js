@@ -17,9 +17,8 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your form submission logic here
     console.log('Form submitted:', formData);
-    alert('Thank you for your message! (This is a demo - configure your backend to handle submissions)');
+    alert('Thank you for your message!');
     setFormData({ name: '', email: '', message: '' });
   };
 
