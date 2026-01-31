@@ -19,8 +19,11 @@ const About = () => {
             </p>
           </div>
           <div className="about-image">
-            <div className="placeholder-image">
-            </div>
+            <img
+              src={`${process.env.PUBLIC_URL}/media/headshot.png`}
+              alt="Ben Finch"
+              className="headshot"
+            />
           </div>
         </div>
       </div>

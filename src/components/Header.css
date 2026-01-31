@@ -24,29 +24,32 @@
 }
 
 .nav-brand h2 {
-  color: #2c3e50;
-  font-size: 1.5rem;
+  color: #1e293b;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .nav-links button {
   background: none;
   border: none;
-  color: #333;
-  font-size: 1rem;
+  color: #475569;
+  font-size: 0.95rem;
+  font-weight: 500;
   cursor: pointer;
-  padding: 0.5rem 1rem;
-  transition: color 0.3s ease;
+  padding: 0.5rem 0.75rem;
+  transition: color 0.2s ease;
   font-family: inherit;
 }
 
 .nav-links button:hover {
-  color: #3498db;
+  color: #1e293b;
 }
 
 @media (max-width: 768px) {

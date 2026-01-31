@@ -1,10 +1,9 @@
 .about {
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 120px 2rem 4rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 7rem 2rem 5rem;
+  background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
   color: white;
 }
 
@@ -14,15 +13,18 @@
 }
 
 .hero-title {
-  font-size: 3.5rem;
-  margin-bottom: 1rem;
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
   animation: fadeInUp 0.8s ease;
 }
 
 .hero-subtitle {
-  font-size: 2rem;
-  margin-bottom: 3rem;
-  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.35rem;
+  margin-bottom: 2.5rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 400;
   animation: fadeInUp 0.8s ease 0.2s both;
 }
 
@@ -39,10 +41,10 @@
 }
 
 .about-text p {
-  font-size: 1.2rem;
-  line-height: 1.8;
-  margin-bottom: 1.5rem;
-  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .about-image {
@@ -51,16 +53,12 @@
   align-items: center;
 }
 
-.placeholder-image {
-  width: 300px;
-  height: 300px;
+.headshot {
+  width: 260px;
+  height: 260px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 4px solid rgba(255, 255, 255, 0.3);
-  font-size: 1.2rem;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.25);
 }
 
 @keyframes fadeInUp {
@@ -75,24 +73,28 @@
 }
 
 @media (max-width: 768px) {
+  .about {
+    padding: 6rem 1.5rem 4rem;
+  }
+
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
-  
+
   .hero-subtitle {
-    font-size: 1.5rem;
+    font-size: 1.15rem;
   }
-  
+
   .about-content {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
   .about-text {
     text-align: center;
   }
-  
-  .placeholder-image {
+
+  .headshot {
     width: 200px;
     height: 200px;
   }
